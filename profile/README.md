@@ -7,7 +7,7 @@
 | Project | Description | Install |
 |---------|-------------|---------|
 | [**grafeo**](https://github.com/GrafeoDB/grafeo) | Embeddable graph database with LPG/RDF support, multi-language queries (GQL, Cypher, Gremlin, GraphQL, SPARQL), MVCC transactions | `uv add grafeo` / `cargo add grafeo` |
-| [**grafeo-web**](https://github.com/GrafeoDB/grafeo-web) | Browser-based Grafeo via WebAssembly: zero backend, IndexedDB persistence | *Coming in 0.4.x* |
+| [**grafeo-web**](https://github.com/GrafeoDB/grafeo-web) | Browser-based Grafeo via WebAssembly: zero backend, IndexedDB persistence | *Coming soon* |
 
 ## Visualization Widgets
 
