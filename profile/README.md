@@ -8,7 +8,7 @@
 - **LPG + RDF in one engine**: Property graphs and triples with optimized storage for each.
 - **Vector search**: HNSW indexes with scalar, binary, and product quantization. SIMD-accelerated.
 - **Embeddable**: Link as a library (Rust, Python, Node.js, WASM) or run as a server. No external processes.
-- **Fast**: Push-based vectorized execution, morsel-driven parallelism, columnar storage with zone maps. Benchmarked with [ann-benchmarks](https://github.com/GrafeoDB/ann-benchmarks) and [graph-bench](https://github.com/GrafeoDB/graph-bench).
+- **Fast(est)**: Push-based vectorized execution, morsel-driven parallelism, columnar storage with zone maps. Benchmarked with [ann-benchmarks](https://github.com/GrafeoDB/ann-benchmarks) and [graph-bench](https://github.com/GrafeoDB/graph-bench).
 
 ## Quick Start
 
