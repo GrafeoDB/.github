@@ -38,7 +38,7 @@ for row in db.execute("""
 |---------|-------------|---------|
 | [**grafeo**](https://github.com/GrafeoDB/grafeo) | Embeddable graph database engine | `uv add grafeo` / `cargo add grafeo` / `npm install @grafeo-db/js` |
 | [**grafeo-server**](https://github.com/GrafeoDB/grafeo-server) | HTTP server & web UI: REST API, transactions, ~20MB Docker image | `docker pull grafeodb/grafeo-server` |
-| [**grafeo-web**](https://github.com/GrafeoDB/grafeo-web) | Browser-based Grafeo via WebAssembly with IndexedDB persistence | *Coming soon* |
+| [**grafeo-web**](https://github.com/GrafeoDB/grafeo-web) | Browser-based Grafeo via WebAssembly with IndexedDB persistence | `npm install @grafeo-db/web` |
 
 ### Visualization
 
