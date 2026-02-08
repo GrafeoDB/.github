@@ -8,7 +8,7 @@
 - **LPG + RDF in one engine**: Property graphs and triples with optimized storage for each.
 - **Vector search**: HNSW indexes with scalar, binary, and product quantization. SIMD-accelerated.
 - **Embeddable**: Link as a library (Rust, Python, Node.js, WASM) or run as a server. No external processes.
-- **Fast**: Push-based vectorized execution, morsel-driven parallelism, columnar storage with zone maps. Benchmarked with [ann-benchmarks](https://github.com/GrafeoDB/ann-benchmarks) and [graph-bench](https://github.com/GrafeoDB/graph-bench).
+- **Fast(est)**: Push-based vectorized execution, morsel-driven parallelism, columnar storage with zone maps. Benchmarked with [ann-benchmarks](https://github.com/GrafeoDB/ann-benchmarks) and [graph-bench](https://github.com/GrafeoDB/graph-bench).
 
 ## Quick Start
 
@@ -57,7 +57,8 @@ for row in db.execute("""
 ## Links
 
 - [Documentation](https://grafeo.dev)
-- [PyPI](https://pypi.org/project/grafeo/)
-- [crates.io](https://crates.io/crates/grafeo)
-- [npm](https://www.npmjs.com/package/@grafeo-db/js)
 - [Docker Hub](https://hub.docker.com/r/grafeo/grafeo-server)
+- [crates.io](https://crates.io/crates/grafeo)
+- [PyPI](https://pypi.org/project/grafeo/)
+- [npm](https://www.npmjs.com/package/@grafeo-db/js)
+
