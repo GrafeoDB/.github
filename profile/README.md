@@ -57,7 +57,8 @@ for row in db.execute("""
 ## Links
 
 - [Documentation](https://grafeo.dev)
+- [Docker Hub](https://hub.docker.com/r/grafeo/grafeo-server)
 - [PyPI](https://pypi.org/project/grafeo/)
 - [crates.io](https://crates.io/crates/grafeo)
 - [npm](https://www.npmjs.com/package/@grafeo-db/js)
-- [Docker Hub](https://hub.docker.com/r/grafeo/grafeo-server)
+
