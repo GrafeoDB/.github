@@ -1,6 +1,6 @@
 # GrafeoDB
 
-**Embeddable graph database built in pure Rust.** Dual data models (LPG + RDF), five query languages, HNSW vector search, MVCC transactions. Zero external dependencies.
+**Embeddable graph database built in pure Rust.** Dual data models (LPG + RDF), five query languages, HNSW vector search, MVCC transactions.
 
 ## Why Grafeo?
 
