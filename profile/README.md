@@ -51,7 +51,7 @@ for row in db.execute("""
 
 | Project | Description | Install |
 |---------|-------------|---------|
-| [**grafeo-mcp**](https://github.com/GrafeoDB/grafeo-mcp) | MCP server &mdash; expose Grafeo to AI agents over stdio or HTTP | `uv add grafeo-mcp` |
+| [**grafeo-mcp**](https://github.com/GrafeoDB/grafeo-mcp) | Use Grafeo as an MCP server, expose to AI agents over stdio or HTTP | `uv add grafeo-mcp` |
 | [**grafeo-langchain**](https://github.com/GrafeoDB/grafeo-langchain) | LangChain GraphStore & GraphVectorStore for knowledge-graph RAG | `uv add grafeo-langchain` |
 | [**grafeo-llamaindex**](https://github.com/GrafeoDB/grafeo-llamaindex) | LlamaIndex PropertyGraphStore with structured + vector queries | `uv add grafeo-llamaindex` |
 
