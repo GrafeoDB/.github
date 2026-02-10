@@ -47,6 +47,14 @@ for row in db.execute("""
 | [**anywidget-graph**](https://github.com/GrafeoDB/anywidget-graph) | Interactive graph visualization for notebooks (Marimo, Jupyter, VS Code, Colab) | `uv add anywidget-graph` |
 | [**anywidget-vector**](https://github.com/GrafeoDB/anywidget-vector) | 3D vector/embedding visualization with 6D encoding | `uv add anywidget-vector` |
 
+### Integrations (coming in 0.5.0)
+
+| Project | Description | Install |
+|---------|-------------|---------|
+| [**grafeo-mcp**](https://github.com/GrafeoDB/grafeo-mcp) | MCP server &mdash; expose Grafeo to AI agents over stdio or HTTP | `uv add grafeo-mcp` |
+| [**grafeo-langchain**](https://github.com/GrafeoDB/grafeo-langchain) | LangChain GraphStore & GraphVectorStore for knowledge-graph RAG | `uv add grafeo-langchain` |
+| [**grafeo-llamaindex**](https://github.com/GrafeoDB/grafeo-llamaindex) | LlamaIndex PropertyGraphStore with structured + vector queries | `uv add grafeo-llamaindex` |
+
 ### Benchmarking
 
 | Project | Description |
