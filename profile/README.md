@@ -1,10 +1,10 @@
 # GrafeoDB
 
-**Embeddable graph database built in pure Rust.** Dual data models (LPG + RDF), five query languages, HNSW vector search, MVCC transactions.
+**Embeddable graph database built in pure Rust.** Dual data models (LPG + RDF), six query languages, HNSW vector search, MVCC transactions. Now in beta.
 
 ## Why Grafeo?
 
-- **5 query languages**: GQL (ISO), Cypher, Gremlin, GraphQL, SPARQL. Use what you know.
+- **6 query languages**: GQL (ISO), Cypher, Gremlin, GraphQL, SPARQL, SQL/PGQ. Use what you know or want to learn.
 - **LPG + RDF in one engine**: Property graphs and triples with optimized storage for each.
 - **Vector search**: HNSW indexes with scalar, binary, and product quantization. SIMD-accelerated.
 - **Embeddable**: Link as a library (Rust, Python, Node.js, WASM) or run as a server. No external processes.
@@ -47,10 +47,11 @@ for row in db.execute("""
 | [**anywidget-graph**](https://github.com/GrafeoDB/anywidget-graph) | Interactive graph visualization for notebooks (Marimo, Jupyter, VS Code, Colab) | `uv add anywidget-graph` |
 | [**anywidget-vector**](https://github.com/GrafeoDB/anywidget-vector) | 3D vector/embedding visualization with 6D encoding | `uv add anywidget-vector` |
 
-### Integrations (coming in 0.5.0)
+### AI & Integrations
 
 | Project | Description | Install |
 |---------|-------------|---------|
+| [**grafeo-memory**](https://github.com/GrafeoDB/grafeo-memory) | AI memory layer. Extract, reconcile, and search memories from conversations. No Docker, no Neo4j, one `.db` file + one LLM | `uv add grafeo-memory` |
 | [**grafeo-mcp**](https://github.com/GrafeoDB/grafeo-mcp) | Use Grafeo as an MCP server, expose to AI agents over stdio or HTTP | `uv add grafeo-mcp` |
 | [**grafeo-langchain**](https://github.com/GrafeoDB/grafeo-langchain) | LangChain GraphStore & GraphVectorStore for knowledge-graph RAG | `uv add grafeo-langchain` |
 | [**grafeo-llamaindex**](https://github.com/GrafeoDB/grafeo-llamaindex) | LlamaIndex PropertyGraphStore with structured + vector queries | `uv add grafeo-llamaindex` |
@@ -67,6 +68,8 @@ for row in db.execute("""
 - [Documentation](https://grafeo.dev)
 - [Docker Hub](https://hub.docker.com/r/grafeo/grafeo-server)
 - [crates.io](https://crates.io/crates/grafeo)
-- [PyPI](https://pypi.org/project/grafeo/)
+- [PyPI — grafeo](https://pypi.org/project/grafeo/)
+- [PyPI — grafeo-memory](https://pypi.org/project/grafeo-memory/)
+- [PyPI — grafeo-langchain](https://pypi.org/project/grafeo-langchain/)
 - [npm](https://www.npmjs.com/package/@grafeo-db/js)
 
