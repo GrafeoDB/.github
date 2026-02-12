@@ -69,8 +69,8 @@ for row in db.execute("""
 - [Documentation](https://grafeo.dev)
 - [Docker Hub](https://hub.docker.com/r/grafeo/grafeo-server)
 - [crates.io](https://crates.io/crates/grafeo)
-- [PyPI — grafeo](https://pypi.org/project/grafeo/)
-- [PyPI — grafeo-memory](https://pypi.org/project/grafeo-memory/)
-- [PyPI — grafeo-langchain](https://pypi.org/project/grafeo-langchain/)
+- [PyPI grafeo](https://pypi.org/project/grafeo/)
+- [PyPI grafeo-memory](https://pypi.org/project/grafeo-memory/)
+- [PyPI grafeo-langchain](https://pypi.org/project/grafeo-langchain/)
 - [npm](https://www.npmjs.com/package/@grafeo-db/js)
 
