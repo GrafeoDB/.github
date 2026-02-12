@@ -53,6 +53,7 @@ for row in db.execute("""
 |---------|-------------|---------|
 | [**grafeo-memory**](https://github.com/GrafeoDB/grafeo-memory) | AI memory layer. Extract, reconcile, and search memories from conversations. No Docker, no Neo4j, one `.db` file + one LLM | `uv add grafeo-memory` |
 | [**grafeo-mcp**](https://github.com/GrafeoDB/grafeo-mcp) | Use Grafeo as an MCP server, expose to AI agents over stdio or HTTP | `uv add grafeo-mcp` |
+| [**grafeo-memory**](https://github.com/GrafeoDB/grafeo-memory) |AI memory layer powered by Grafeo | `uv add grafeo-memory` |
 | [**grafeo-langchain**](https://github.com/GrafeoDB/grafeo-langchain) | LangChain GraphStore & GraphVectorStore for knowledge-graph RAG | `uv add grafeo-langchain` |
 | [**grafeo-llamaindex**](https://github.com/GrafeoDB/grafeo-llamaindex) | LlamaIndex PropertyGraphStore with structured + vector queries | `uv add grafeo-llamaindex` |
 
