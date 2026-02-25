@@ -1,6 +1,6 @@
 # GrafeoDB
 
-**Embeddable graph database built in pure Rust.** Dual data models (LPG + RDF), six query languages, HNSW vector search, MVCC transactions. Now in beta.
+**Embeddable graph database built in pure Rust.** Dual data models (LPG + RDF), six query languages, HNSW vector search, MVCC transactions. Fastest graph database tested on the [LDBC Social Network Benchmark](https://github.com/GrafeoDB/graph-bench) in both embedded and server configurations, with a low memory footprint. Now in beta.
 
 ## Why Grafeo?
 
@@ -8,7 +8,7 @@
 - **LPG + RDF in one engine**: Property graphs and triples with optimized storage for each.
 - **Vector search**: HNSW indexes with scalar, binary, and product quantization. SIMD-accelerated.
 - **Embeddable**: Link as a library (Rust, Python, Node.js, WASM) or run as a server. No external processes.
-- **Fast(est)**: Push-based vectorized execution, morsel-driven parallelism, columnar storage with zone maps. Benchmarked with [ann-benchmarks](https://github.com/GrafeoDB/ann-benchmarks) and [graph-bench](https://github.com/GrafeoDB/graph-bench).
+- **Fast and lean**: Fastest graph database tested on LDBC SNB in both embedded and server modes, with a lower memory footprint than other in-memory databases. Push-based vectorized execution, morsel-driven parallelism, columnar storage with zone maps. Benchmarked with [graph-bench](https://github.com/GrafeoDB/graph-bench) and [ann-benchmarks](https://github.com/GrafeoDB/ann-benchmarks).
 
 ## Quick Start
 
