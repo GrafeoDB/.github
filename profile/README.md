@@ -40,6 +40,13 @@ for row in db.execute("""
 | [**grafeo-server**](https://github.com/GrafeoDB/grafeo-server) | HTTP server & web UI: REST API, transactions, ~40MB Docker image | `docker pull grafeo/grafeo-server` |
 | [**grafeo-web**](https://github.com/GrafeoDB/grafeo-web) | Browser-based Grafeo via WebAssembly with IndexedDB persistence | `npm install @grafeo-db/web` |
 
+### Wire Protocols
+
+| Project | Description | Install |
+|---------|-------------|---------|
+| [**gwp**](https://github.com/GrafeoDB/gql-wire-protocol) | GQL Wire Protocol: gRPC wire protocol for GQL (ISO/IEC 39075) with client bindings in 5 languages | `cargo add gwp` |
+| [**boltr**](https://github.com/GrafeoDB/boltr) | Bolt Wire Protocol: pure Rust Bolt v5.x implementation for Neo4j driver compatibility | `cargo add boltr` |
+
 ### Visualization
 
 | Project | Description | Install |
@@ -71,5 +78,7 @@ for row in db.execute("""
 - [PyPI grafeo](https://pypi.org/project/grafeo/)
 - [PyPI grafeo-memory](https://pypi.org/project/grafeo-memory/)
 - [PyPI grafeo-langchain](https://pypi.org/project/grafeo-langchain/)
-- [npm](https://www.npmjs.com/package/@grafeo-db/js)
-
+- [PyPI grafeo-llamaindex](https://pypi.org/project/grafeo-llamaindex/)
+- [PyPI grafeo-mcp](https://pypi.org/project/grafeo-mcp/)
+- [npm @grafeo-db/js](https://www.npmjs.com/package/@grafeo-db/js)
+- [npm @grafeo-db/web](https://www.npmjs.com/package/@grafeo-db/web)
