@@ -40,13 +40,6 @@ for row in db.execute("""
 | [**grafeo-server**](https://github.com/GrafeoDB/grafeo-server) | HTTP server & web UI: REST API, transactions, ~40MB Docker image | `docker pull grafeo/grafeo-server` |
 | [**grafeo-web**](https://github.com/GrafeoDB/grafeo-web) | Browser-based Grafeo via WebAssembly with IndexedDB persistence | `npm install @grafeo-db/web` |
 
-### Wire Protocols
-
-| Project | Description | Install |
-|---------|-------------|---------|
-| [**gwp**](https://github.com/GrafeoDB/gql-wire-protocol) | GQL Wire Protocol: gRPC wire protocol for GQL (ISO/IEC 39075) with client bindings in 5 languages | `cargo add gwp` |
-| [**boltr**](https://github.com/GrafeoDB/boltr) | Bolt Wire Protocol: pure Rust Bolt v5.x implementation for Neo4j driver compatibility | `cargo add boltr` |
-
 ### Visualization
 
 | Project | Description | Install |
@@ -62,6 +55,13 @@ for row in db.execute("""
 | [**grafeo-mcp**](https://github.com/GrafeoDB/grafeo-mcp) | Use Grafeo as an MCP server, expose to AI agents over stdio or HTTP | `uv add grafeo-mcp` |
 | [**grafeo-langchain**](https://github.com/GrafeoDB/grafeo-langchain) | LangChain GraphStore & GraphVectorStore for knowledge-graph RAG | `uv add grafeo-langchain` |
 | [**grafeo-llamaindex**](https://github.com/GrafeoDB/grafeo-llamaindex) | LlamaIndex PropertyGraphStore with structured + vector queries | `uv add grafeo-llamaindex` |
+
+### Wire Protocols (for Grafeo Server)
+
+| Project | Description | Install |
+|---------|-------------|---------|
+| [**gwp**](https://github.com/GrafeoDB/gql-wire-protocol) | GQL Wire Protocol: gRPC wire protocol for GQL (ISO/IEC 39075) with client bindings in 5 languages | `cargo add gwp` |
+| [**boltr**](https://github.com/GrafeoDB/boltr) | Bolt Wire Protocol: pure Rust Bolt v5.x implementation for Neo4j driver compatibility | `cargo add boltr` |
 
 ### Benchmarking
 
