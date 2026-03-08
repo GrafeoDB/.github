@@ -72,6 +72,7 @@ for row in db.execute("""
 
 ## Links
 
+- [Playground](https://grafeo.ai)
 - [Documentation](https://grafeo.dev)
 - [Docker Hub](https://hub.docker.com/r/grafeo/grafeo-server)
 - [crates.io](https://crates.io/crates/grafeo)
