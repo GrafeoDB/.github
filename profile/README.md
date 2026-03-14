@@ -7,7 +7,7 @@
 - **6 query languages**: GQL (ISO), Cypher, Gremlin, GraphQL, SPARQL, SQL/PGQ. Use what you know or want to learn.
 - **LPG + RDF in one engine**: Property graphs and triples with optimized storage for each.
 - **Vector search**: HNSW indexes with scalar, binary, and product quantization. SIMD-accelerated.
-- **Embeddable**: Link as a library (Rust, Python, Node.js, WASM) or run as a server. No external processes.
+- **Embeddable**: Link as a library (Rust, Python, Node.js, Go, C#, Dart, WASM) or run as a server. No external processes.
 - **Fast and lean**: Fastest graph database tested on LDBC SNB in both embedded and server modes, with a lower memory footprint than other in-memory databases. Push-based vectorized execution, morsel-driven parallelism, columnar storage with zone maps. Benchmarked with [graph-bench](https://github.com/GrafeoDB/graph-bench) and [ann-benchmarks](https://github.com/GrafeoDB/ann-benchmarks).
 
 ## Quick Start
@@ -36,7 +36,7 @@ for row in db.execute("""
 
 | Project | Description | Install |
 |---------|-------------|---------|
-| [**grafeo**](https://github.com/GrafeoDB/grafeo) | Embeddable graph database engine | `uv add grafeo` / `cargo add grafeo` / `npm install @grafeo-db/js` |
+| [**grafeo**](https://github.com/GrafeoDB/grafeo) | Embeddable graph database engine | `uv add grafeo` / `cargo add grafeo` / `npm install @grafeo-db/js` / `dotnet add package Grafeo` / `dart pub add grafeo` |
 | [**grafeo-server**](https://github.com/GrafeoDB/grafeo-server) | HTTP server & web UI: REST API, transactions, ~40MB Docker image | `docker pull grafeo/grafeo-server` |
 | [**grafeo-web**](https://github.com/GrafeoDB/grafeo-web) | Browser-based Grafeo via WebAssembly with IndexedDB persistence | `npm install @grafeo-db/web` |
 
@@ -63,11 +63,17 @@ for row in db.execute("""
 | [**gwp**](https://github.com/GrafeoDB/gql-wire-protocol) | GQL Wire Protocol: gRPC wire protocol for GQL (ISO/IEC 39075) with client bindings in 5 languages | `cargo add gwp` |
 | [**boltr**](https://github.com/GrafeoDB/boltr) | Bolt Wire Protocol: pure Rust Bolt v5.x implementation for Neo4j driver compatibility | `cargo add boltr` |
 
+### Playground
+
+| Project | Description |
+|---------|-------------|
+| [**playground**](https://grafeo.ai) | Interactive browser playground: query in 6 languages, visualize graphs, explore schemas, all client-side via WebAssembly |
+
 ### Benchmarking
 
 | Project | Description |
 |---------|-------------|
-| [**graph-bench**](https://github.com/GrafeoDB/graph-bench) | Custom benchmark suite using LDBC benchmarks, 25 tests across 8 graph database engines |
+| [**graph-bench**](https://github.com/GrafeoDB/graph-bench) | Benchmark suite: 65 benchmarks (LDBC SNB, graph analytics, ACID, vector, hybrid) across 10 graph database engines |
 | [**ann-benchmarks**](https://github.com/GrafeoDB/ann-benchmarks) | Fork of [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) extended with a Grafeo HNSW adapter for vector search benchmarking |
 
 ## Links
@@ -83,3 +89,5 @@ for row in db.execute("""
 - [PyPI grafeo-mcp](https://pypi.org/project/grafeo-mcp/)
 - [npm @grafeo-db/js](https://www.npmjs.com/package/@grafeo-db/js)
 - [npm @grafeo-db/web](https://www.npmjs.com/package/@grafeo-db/web)
+- [NuGet Grafeo](https://www.nuget.org/packages/Grafeo)
+- [pub.dev grafeo](https://pub.dev/packages/grafeo)
