@@ -2,6 +2,14 @@
 
 **Embeddable graph database built in pure Rust.** Dual data models (LPG + RDF), six query languages, HNSW vector search, MVCC transactions. Fastest graph database tested on the [LDBC Social Network Benchmark](https://github.com/GrafeoDB/graph-bench) in both embedded and server configurations, with a low memory footprint. Now in beta.
 
+<a href="https://grafeo.ai">
+  <picture>
+    <img alt="Grafeo Playground: query and visualize graphs in the browser" src="../assets/playground.png">
+  </picture>
+</a>
+
+<sup>Try it live at <a href="https://grafeo.ai">grafeo.ai</a></sup>
+
 ## Why Grafeo?
 
 - **6 query languages**: GQL (ISO), Cypher, Gremlin, GraphQL, SPARQL, SQL/PGQ. Use what you know or want to learn.
