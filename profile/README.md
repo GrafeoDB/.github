@@ -8,7 +8,7 @@
   </picture>
 </a>
 
-<sup>Try it live at <a href="https://grafeo.ai">grafeo.ai</a></sup>
+<sup>Try it live at <a href="https://grafeo.ai/learn">grafeo.ai</a></sup>
 
 ## Why Grafeo?
 
